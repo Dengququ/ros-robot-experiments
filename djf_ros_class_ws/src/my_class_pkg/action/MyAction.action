@@ -1,0 +1,5 @@
+string object_name
+---
+bool success
+---
+float32 progress
