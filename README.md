@@ -17,8 +17,8 @@ source devel/setup.bash
 
 ---
 
-### ros_class_ws_dqqself（主题消息基础实验）
-包含标准消息发布/订阅的基础代码。
+### ros_class_ws_dqqself（主题消息基础实验 + 运动控制）
+包含标准消息发布/订阅及机器人走 1×1m 正方形的代码。
 
 ```bash
 cd ros_class_ws_dqqself
@@ -36,6 +36,11 @@ rosrun my_class_pkg ros_publisher_node.py   # Python
 ```bash
 rosrun my_class_pkg ros_subscriber_node      # C++
 rosrun my_class_pkg ros_subscriber_node.py   # Python
+```
+
+#### 走 1×1m 正方形（基于里程计）
+```bash
+rosrun my_class_pkg move_1m_square_odom
 ```
 
 ---
